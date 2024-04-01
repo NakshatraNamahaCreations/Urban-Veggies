@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Mukta", sans-serif;
+}
+.sidenav {
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  height: 120vh;
+}
+.css-1wvake5 {
+  border: none !important;
+  width: 225px !important;
+  min-width: 225px !important;
+}
+.M-link {
+  text-decoration: none;
+  color: black;
+}
+.icons {
+  font-size: 100px !important;
+  opacity: 0.4;
+  transition: transform 0.9ms ease-out;
+}
+
+.carts-h:hover .icons {
+  transition: 0.9ms ease-out;
+  transform: scale(1.1);
+}
+.prints {
+  cursor: pointer;
+  font-size: 1.5em;
+  margin: auto;
+}
+.view {
+  cursor: pointer;
+  font-size: 1em;
+  margin: auto;
+}
+
+.headeingName {
+  font-weight: bold;
+}
+.invoice-headi {
+  font-weight: bold;
+}
+
+@media print {
+  .printableDataTable .rdt_Pagination,
+  .printableDataTable .rdt_Selectable,
+  .printableDataTable .rdt_Title {
+    display: none !important;
+  }
+
+  .printableDataTable .rdt_TableBody {
+    overflow: hidden !important;
+  }
+}
+.btncwhite {
+  color: white;
+}
+.btn_bg {
+  background-color: #e5e7eb;
+  border: none;
+
+  width: 200px;
+  border-radius: 10px;
+}
+.filter {
+  background-color: #10b981 !important;
+  border: none !important;
+}
+.reset {
+  background-color: #e5e7eb !important;
+  border: none !important;
+  color: black !important;
+}
+.btn_bg:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+.closebtn {
+  border-radius: 100px;
+  background-color: #eeeeee;
+  height: 40px;
+  width: 40px;
+  border: none;
+  font-size: 18px;
+  text-align: center;
+  box-shadow: 15px 15px 17px #eeeeee !important;
+  transition: transform 8ms ease-out;
+}
+
+.closebtn:hover {
+  transform: scale(1.1);
+}
+
+.ofheader {
+  background-color: #f9fafb;
+}
+.offcan {
+  width: 50% !important;
+}
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.cateimg {
+  border: dashed gray;
+  text-align: center;
+  border-radius: 5px;
+}
+.inpfile {
+  display: none !important;
+}
+.pi-cloud-upload {
+  font-size: 35px;
+  color: #10b981;
+}
+.save {
+  background-color: #10b981;
+}
+.mHisf,
+th {
+  background-color: #f3f4f6 !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+.lnOUep {
+  width: auto;
+}
+.faZveH {
+  max-width: 250px !important;
+  margin: auto;
+}
+.dgpUBp:last-child {
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+.dgpUBp {
+  white-space: pre-wrap;
+}
+.erkbiK div {
+  max-width: 130px;
+}
+.dgpUBp:hover {
+  outline-style: none !important;
+  outline-width: none !important;
+  outline-color: none !important;
+}
+.hVPalX {
+  border-top-style: none !important;
+}
+.imgview:hover {
+  border: 2px solid #1059b9;
+}
+.instc {
+  background-color: #10b981;
+  border-radius: 5px;
+}
+.saleprice {
+  font-size: 25px;
+  color: #10b981;
+  font-weight: bold;
+}
+.Price {
+  font-size: 25px;
+  color: gray;
+  font-weight: bold;
+  text-decoration: line-through;
+}
+.prices {
+  display: flex;
+  width: fit-content;
+  gap: 1em;
+}
+.login-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-side {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+.left-side img {
+  width: 80%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.right-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fullscreen-modal {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+/* Optional: Add a smooth transition effect */
+.modal-dialog {
+  transition: transform 0.3s ease-in-out;
+}
+
+.modal.fade.show {
+  transition: opacity 0.3s ease-in-out;
+}
+.modelclo {
+  font-weight: bold;
+  position: absolute;
+  font-size: 35px;
+  top: 1%;
+  right: 1%;
+  color: white;
+}
+
+.zoomed {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+table th,
+td {
+  border: 1px solid black !important ;
+}

@@ -1,0 +1,22 @@
+.glassBox,
+.glassBox * {
+  box-sizing: border-box;
+  transition: 500ms;
+}
+
+.glassBox {
+  backdrop-filter: blur(2px);
+  position: relative;
+}
+
+.glassBox__imgBox img {
+  display: block;
+}
+
+.glassBox:hover .glassBox__imgBox {
+  transform: translateY(-20px);
+}
+
+.glassBox:hover .glassBox__imgBox img {
+  transform: translate(-10px, -10px) rotate(-55deg) scale(1.1);
+}
